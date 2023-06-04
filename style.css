@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color:#fff
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  header h1, footer p {
+    margin: 0;
+  }
+  
+  #container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #lengths-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .length-container {
+    margin: 0 10px;
+  }
+  
+  .length-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ccc;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #timer-label,
+  #time-left {
+    font-size: 24px;
+    margin: 10px;
+  }
+  
+  #beep {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #container {
+      max-width: 300px;
+    }
+  
+    button {
+      display: block;
+      width: 80px;
+      margin: 10px auto;
+    }
+  
+    #timer-label,
+    #time-left {
+      font-size: 20px;
+    }
+  }
+
+  #break-decrement, #session-decrement {
+    background-color: rgb(121, 28, 28);
+    color:#fff
+  }
+
+  #break-increment, #session-increment {
+    background-color: rgb(9, 37, 128);
+    color:#fff
+  }
+
+  #start_stop {
+    background-color: darkgreen;
+    color:#fff
+  }
+  
+  #reset {
+    background-color: red;
+    color:#fff
+  }
+
+  a {
+    color:darkorange
+  }
+  
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/16/02/03/pocket-watch-3156771_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.;
+  }
+
+p a {
+    color:cornsilk
+}
